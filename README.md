@@ -128,7 +128,7 @@ Random Forest combined with PCA achieved the best overall performance.
 
 This project was developed as part of my Bachelor's Thesis in Computer Science at **Ovidius University of Constanța**.
 
-The study investigates Machine Learning techniques for early diabetes prediction using demographic, medical and lifestyle information. :contentReference[oaicite:1]{index=1}
+The study investigates Machine Learning techniques for early diabetes prediction using demographic, medical and lifestyle information. 
 
 ---
 
