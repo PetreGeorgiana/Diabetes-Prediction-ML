@@ -2,150 +2,142 @@
 
 Machine Learning project developed as part of my Bachelor's Thesis.
 
-This project predicts whether a patient is likely to develop diabetes based on medical and lifestyle indicators using multiple Machine Learning algorithms. The application includes data preprocessing, exploratory data analysis, dimensionality reduction with PCA, model training, evaluation and performance comparison.
+The project predicts whether a patient is likely to have diabetes based on medical and lifestyle characteristics using several supervised learning algorithms.
 
 ---
 
-# 🚀 Features
+## 📌 Project Overview
 
-- 📊 Exploratory Data Analysis (EDA)
-- 🧹 Data preprocessing
-- 📈 Statistical analysis
-- 🔥 Correlation analysis
-- 📉 Histograms and data visualization
-- 🧠 Principal Component Analysis (PCA)
-- 🌳 Decision Tree Classifier
-- 🌲 Random Forest Classifier
-- 📐 Logistic Regression
-- ⚡ XGBoost Classifier
-- 🤝 Voting Classifier Ensemble
-- 📋 Confusion Matrix
-- 📊 Classification Report
-- 🎯 Model accuracy comparison
+This project explores the application of Machine Learning techniques for diabetes prediction using healthcare data.
+
+Different classification algorithms were trained and evaluated to determine the most accurate model.
+
+The workflow includes:
+
+- Data preprocessing
+- Exploratory Data Analysis (EDA)
+- Correlation analysis
+- Principal Component Analysis (PCA)
+- Model training
+- Performance evaluation
 
 ---
 
-# 🛠 Technologies
+## 📊 Dataset
+
+**Dataset:** Behavioral Risk Factor Surveillance System (BRFSS)
+
+Features include:
+
+- Blood Pressure
+- Cholesterol
+- BMI
+- Smoking
+- Physical Activity
+- Fruits & Vegetables Consumption
+- General Health
+- Mental Health
+- Physical Health
+- Age
+- Sex
+- Education
+- Income
+
+Dataset characteristics:
+
+- **70,692 instances**
+- **22 features**
+- Binary classification problem
+
+---
+
+## 🤖 Machine Learning Models
+
+The following models were implemented and compared:
+
+- 🌲 Random Forest
+- 🌳 Decision Tree
+- 📈 Logistic Regression
+- 📉 Principal Component Analysis (PCA)
+
+---
+
+## 📈 Results
+
+| Model | Accuracy |
+|--------|----------|
+| 🌲 Random Forest + PCA | **87%** |
+| 🌳 Decision Tree + PCA | **85%** |
+| 📈 Logistic Regression | Evaluated |
+
+Random Forest combined with PCA achieved the best overall performance.
+
+---
+
+## 🛠 Technologies
 
 - Python
 - Pandas
 - NumPy
+- Scikit-learn
 - Matplotlib
 - Seaborn
-- Scikit-learn
-- SciPy
-- XGBoost
+- Jupyter Notebook
 
 ---
 
+## 📷 Project Screenshots
 
-# 📊 Dataset
+### Application Workflow
 
-The project uses the **CSI Diabetes Dataset**.
-
-Dataset characteristics:
-
-- 👥 70,692 patient records
-- 📑 22 medical and lifestyle features
-- 🎯 Binary classification (Diabetes / No Diabetes)
-
-The dataset is not included in this repository due to its size.
+![Architecture](screenshots/architecture.png)
 
 ---
 
-# 🤖 Machine Learning Models
+### Correlation Analysis
 
-The following algorithms were implemented and evaluated:
-
-- Logistic Regression
-- Decision Tree
-- Random Forest
-- XGBoost
-- Voting Classifier
-
-Principal Component Analysis (PCA) was applied before model training to reduce dimensionality and improve visualization.
+![Correlation](screenshots/correlation-heatmap.png)
 
 ---
 
-# 📈 Evaluation Metrics
+### Principal Component Analysis
 
-Models were evaluated using:
-
-- Accuracy
-- Precision
-- Recall
-- F1-score
-- Confusion Matrix
-- Classification Report
+![PCA](screenshots/pca-analysis.png)
 
 ---
 
-# 📷 Screenshots
+### Random Forest Results
 
-## 🔹 Correlation Matrix
-
-![Correlation Matrix](screenshots/correlation-matrix.png)
+![RandomForest](screenshots/random-forest-results.png)
 
 ---
 
-## 🔹 PCA Visualization
-
-![PCA](screenshots/pca.png)
-
----
-
-## 🔹 Confusion Matrix
+### Confusion Matrix
 
 ![Confusion Matrix](screenshots/confusion-matrix.png)
 
 ---
 
-## 🔹 Dataset Analysis
+### Model Comparison
 
-![Histograms](screenshots/histograms.png)
-
----
-
-# 📄 Documentation
-
-Bachelor's Thesis
-
-📘 Available in:
-
-```
-docs/Bachelor_Thesis.pdf
-```
+![Comparison](screenshots/algorithm-comparison.png)
 
 ---
 
-# ▶️ Running the Project
+## 🎓 Academic Context
 
-Clone the repository:
+This project was developed as part of my Bachelor's Thesis in Computer Science at **Ovidius University of Constanța**.
 
-```bash
-git clone https://github.com/PetreGeorgiana/Diabetes-Prediction-ML.git
-```
-
-Install dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
-Run:
-
-```bash
-python src/DiabetPrediction.py
-```
+The study investigates Machine Learning techniques for early diabetes prediction using demographic, medical and lifestyle information. :contentReference[oaicite:1]{index=1}
 
 ---
 
-# 📬 Author
+## 📬 Contact
 
 **Georgiana Petre**
 
-💼 LinkedIn:
-www.linkedin.com/in/petre-georgiana-320ba3290
-
-💻 GitHub:
+GitHub:
 https://github.com/PetreGeorgiana
+
+LinkedIn:
+www.linkedin.com/in/petre-georgiana-320ba3290
