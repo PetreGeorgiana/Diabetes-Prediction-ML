@@ -2,83 +2,69 @@
 
 Machine Learning project developed as part of my Bachelor's Thesis.
 
-This project focuses on predicting diabetes using supervised machine learning algorithms and comparing their performance on a real-world healthcare dataset.
+The objective of this project is to predict whether a patient is likely to develop diabetes using supervised Machine Learning algorithms and feature engineering techniques.
 
 ---
 
-## 📌 Project Overview
-
-The application performs:
-
-- Data preprocessing and cleaning
-- Exploratory Data Analysis (EDA)
-- Principal Component Analysis (PCA)
-- Feature selection
-- Model training and evaluation
-- Performance comparison between multiple machine learning algorithms
-
----
-
-## 🤖 Machine Learning Algorithms
-
-- Random Forest
-- Decision Tree
-- Logistic Regression
-
----
-
-## 📊 Dataset
-
-- **70,692 patient records**
-- **22 medical and lifestyle attributes**
-- Binary classification:
-  - Diabetes
-  - No Diabetes
-
----
-
-## 📈 Evaluation Metrics
-
-The models were evaluated using:
-
-- Accuracy
-- Precision
-- Recall
-- F1-Score
-- Confusion Matrix
-
----
-
-## 🛠 Technologies
+## Technologies
 
 - Python
 - Pandas
 - NumPy
-- Scikit-Learn
+- Scikit-learn
 - Matplotlib
-- Jupyter Notebook
+- Seaborn
 
 ---
 
-## 📂 Project Structure
+## Machine Learning Models
 
-```
-Diabetes-Prediction-ML/
-│
-├── notebooks/
-├── screenshots/
-├── docs/
-├── README.md
-└── requirements.txt
-```
+The following models were implemented and compared:
+
+- Logistic Regression
+- Decision Tree
+- Random Forest
+
+Principal Component Analysis (PCA) was also applied for dimensionality reduction and data visualization.
 
 ---
 
-## 🖼 Screenshots
+## Dataset
 
-### Dataset Overview
+The project uses the **CSI Diabetes Dataset**.
 
-![Dataset](screenshots/dataset.png)
+The dataset is not included in this repository due to its size.
+
+---
+
+## Project Workflow
+
+1. Data preprocessing
+2. Missing value handling
+3. Feature analysis
+4. Data visualization
+5. PCA
+6. Model training
+7. Model evaluation
+8. Performance comparison
+
+---
+
+## Results
+
+The models were evaluated using standard classification metrics:
+
+- Accuracy
+- Precision
+- Recall
+- F1-score
+- Confusion Matrix
+
+Random Forest achieved the best overall performance.
+
+---
+
+## Screenshots
 
 ### Correlation Matrix
 
@@ -86,23 +72,32 @@ Diabetes-Prediction-ML/
 
 ### PCA Visualization
 
-![PCA](screenshots/pca.png)
+![PCA](screenshots/pca-plot.png)
 
-### Model Performance
+### Confusion Matrix
 
-![Results](screenshots/model-results.png)
+![Confusion Matrix](screenshots/confusion-matrix.png)
 
----
+### Feature Importance
 
-## 📄 Bachelor's Thesis
-
-The complete Bachelor's Thesis is available in the **docs** folder.
+![Feature Importance](screenshots/feature-importance.png)
 
 ---
 
-## 👩‍💻 Author
+## Documentation
+
+Bachelor Thesis:
+
+📄 docs/Bachelor_Thesis.pdf
+
+---
+
+## Author
 
 **Georgiana Petre**
 
-- LinkedIn: *(www.linkedin.com/in/petre-georgiana-320ba3290)*
-- GitHub: https://github.com/PetreGeorgiana
+LinkedIn:
+www.linkedin.com/in/petre-georgiana-320ba3290
+
+GitHub:
+https://github.com/PetreGeorgiana
