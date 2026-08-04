@@ -38,29 +38,6 @@ This project predicts whether a patient is likely to develop diabetes based on m
 
 ---
 
-# 📂 Project Structure
-
-```
-Diabetes-Prediction-ML
-│
-├── src/
-│   └── DiabetPrediction.py
-│
-├── screenshots/
-│   ├── correlation-matrix.png
-│   ├── confusion-matrix.png
-│   ├── histograms.png
-│   └── pca.png
-│
-├── docs/
-│   └── Bachelor_Thesis.pdf
-│
-├── requirements.txt
-├── README.md
-└── .gitignore
-```
-
----
 
 # 📊 Dataset
 
