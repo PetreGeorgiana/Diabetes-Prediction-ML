@@ -106,9 +106,9 @@ Random Forest combined with PCA achieved the best overall performance.
 
 ---
 
-### Random Forest Results
+### Model Performance
 
-![RandomForest](screenshots/random-forest-results.png)
+![RandomForest](screenshots/model-performance.png)
 
 ---
 
